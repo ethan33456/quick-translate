@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Ethan's Text Translator",
+    "version": "1.0",
+    "permissions": [
+      "contextMenus",
+      "activeTab",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "extension.js"
+    },
+    "host_permissions": ["http://localhost:5000/"],
+    "description": "Translate highlighted text to French.",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
